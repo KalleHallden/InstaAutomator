@@ -1,0 +1,3 @@
+[console_scripts]
+instapy = instapy_cli.__main__:main
+
