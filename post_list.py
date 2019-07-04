@@ -34,7 +34,8 @@ class PostList:
                 Post(
                     description = post['description'],
                     image = post['image'],
-                    post_date = parser.parse(post['post_date'])
+                    post_date = parser.parse(post['post_date']),
+                    has_been_posted = post['has_been_posted']
                 )
             )
         self.posts = return_list
